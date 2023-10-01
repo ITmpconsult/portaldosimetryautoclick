@@ -1,0 +1,3 @@
+# autoclicks
+Using powershell to automate clicks to create a portal dosimetry verification plan. Since this is mouse based you need to get the positions correctly otherwise it will not work. The "getclickposition.ps1" is supposed to give you the position that you want, it is janky now as its based on time. Hopefully as we go along it can be set to record based on click. 
+Once you have the clicks, you can then go into the "powershellverification.ps1" and in here you will need to type up the click positions as well as adjusting the sleep time in between the clicks. Remember, the positions in the current code are for a 1920*1080p screen, and if the window changes sizes it wont work.
